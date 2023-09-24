@@ -48,31 +48,19 @@ hr {
        color: white;
        
 }
-a:hover {
+#tag:hover {
        color: rgb(255, 132, 194) !important;
-       text-decoration: underline !important;
 } 
 a:link, a:visited {
        text-decoration: none !important;
 }
-/*
-     FILE ARCHIVED ON 05:51:17 Apr 30, 2023 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 04:50:55 Jul 01, 2023.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
-
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
-*/
-/*
-playback timings (ms):
-  captures_list: 150.058
-  exclusion.robots: 0.067
-  exclusion.robots.policy: 0.058
-  RedisCDXSource: 0.726
-  esindex: 0.009
-  LoadShardBlock: 128.484 (3)
-  PetaboxLoader3.datanode: 202.772 (5)
-  load_resource: 322.984
-  PetaboxLoader3.resolve: 78.196
-  loaddict: 33.395
-*/
+.hidden {
+       color: black;
+}
+.alert {
+       position: fixed;
+       top: 50%;
+       left: 50%;
+       transform: translate(-50%, -50%);
+       width: fit-content;
+}
